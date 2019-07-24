@@ -23,9 +23,8 @@ height: auto;
 
 a img { border: 0; }
 
-ul,li{
-	list-style: none;
-}
+ul,li{list-style: none;}
+
 .container {
 	position:relative;
 	width:100%;
@@ -33,9 +32,7 @@ ul,li{
 	margin:auto;
 	min-height:100%;
 }
-
-
-
+/* header start */
 #header {
 	position:relative;
 	width: 100%;
@@ -44,335 +41,103 @@ ul,li{
 .headerBox{
 	width: 100%;
 	height: 930px;
+	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
-    background-position: center;
-	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-position: center;
+	
 }
-.headerTopBox{
-	width:1400px;
+
+.headerNav{
+	width: 100%;
+	height: 160px;
+	background-image: url(../images/nav_bg.png)
+}
+.headerNavWidthBox{
+	width: 1280px;
 	height: 160px;
 	margin: 0 auto;
-}
-.headerLogoBox{
-	float: left;
-	width: 106px;
-	height: 140px;
-	margin-left: 60px;
-	padding-left: 10px;
-	padding-top: 20px;
-	background-color: #ef92b1
-}
 
-.headerTopRightBox{
-	float: right;
-	width: 612px;
-	height: 66px;
-	padding-top: 50px;
-	padding-right: 60px;
 }
-.headerBtnBox{
-	float: right;
-	width: 196px;
-	height: 34px;
-}
-.headerBtnLeftBox{
+.headerNavLeftBox{
 	float: left;
-	width: 88px;
+	width: 30%;
+	height: 160px;
+
+}
+.headerNavLeftLogo{
+	float: left;
+	width: 116px;
+	height: 160px;
+}
+.headerNavRightBox{
+	float: left;
+	width: 70%;
+	height: 112px;
+
+	padding-top: 48px;
+}
+.headerNavRightTop{
+	width:100%;
+	height: 34px;
+	padding-bottom: 18px;
+
+}
+.headerNavRightTop a{
+	float: right;
+	width: 82px;
 	height: 30px;
 	line-height: 30px;
-	font-family: "SourceHanSansCN";
+	text-align: center;
+	font-family: "微软雅黑";
 	font-size: 14px;
 	color: #ffffff;
-	text-align: center;
-	border:2px solid #e05e9e;
+	font-weight: bold;
+	background-color: #E05E9E;
 	border-radius: 17px;
-}
-.headerNavBox{
-	float: right;
-	width: 612px;
-	height: 16px;
-	margin-top:16px;
-}
-.headerNavBox ul li{
-	float: left;
-	line-height: 16px;
-	margin-right: 52px;
-	font-family: "MicrosoftYaHei";
-	font-size: 14px;
-	color: #ffffff
-}
+	border: 2px solid #E05E9E;
 
+	text-decoration: none;
+	letter-spacing: 6px;
+	padding-left: 6px;
+	margin-left: 12px;
 
-.headerFloatBox{
+}
+.headerNavRightBottom{
 	width: 100%;
-	height: 90px;
-	background-color: #ffffff
+	height: 14px;
 }
-.headerFloatTopBox{
-	width:1400px;
-	height: 90px;
-	margin: 0 auto;
-}
-.headerFloatLogoBox{
-	float: left;
-	width: 190px;
-	height: 30px;
-	padding:15px 0 15px 60px;
-}
-
-.headerFloatRightBox{
+.headerNavRightBottom li{
 	float: right;
-	width: 612px;
-	height: 60px;
-	padding-right: 60px;
-	padding-top: 15px;
-}
-.headerFloatBtnBox{
-	float: right;
-	width: 196px;
-	height: 34px;
-}
-.headerFloatLeftBtnBox{
-	float: left;
-	width: 88px;
-	height: 30px;
-	font-family:"SourceHanSansCN";
+	width: auto;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	font-family: "微软雅黑";
 	font-size: 14px;
 	color: #ffffff;
-	line-height: 30px;
-	text-align: center;
-	border: 2px solid #e05e9e;
-	border-radius: 17px;
-}
-.headerFloatNavBox{
-	float: right;
-	width: 612px;
-	height: 16px;
-}
-.headerFloatNavBox ul li{
-	float: left;
-	margin-top: 12px;
-	margin-right: 52px;
-	font-family: "SourceHanSansCN";
-	font-size: 14px;
-	color: #333333;
+	margin-left: 56px;
+
 }
 
 
 
+/* header end */
+
+/* content start */
 #content{
 	position:relative;
 	width:100%;
 	height:auto;
 }
 .contentBox{
-	width: 100%;
-	height: 2498px;
+	width:100%;
+	height: 2500px;
+	background-color: #FAE0E9;
 }
 
-.contentFirstBox{
-	width: 100%;
-	height: 514px;
-	padding-top: 68px;
-	background-color: #fae0e9
-}
-.containerFirstContentBox{
-	width: 1226px;
-	height: 397px;
-	margin: 0 auto;
-	padding-top: 28px;
-	padding-right: 27px;
-	padding-left: 27px;
-	background-color: #ffffff
-}
-
-
-.containerFirstContentTopBox{
-	width: 1226px;
-	height: 30px;
-	margin-bottom: 23px;
-}
-.containerNewsBox{
-	float: left;
-	line-height: 1;
-	font-family: "微软雅黑";
-	font-size: 30px;
-	color: #e05e9e;
-}
-.containerMoreBox{
-	float: right;
-	width: 33px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	font-family: "微软雅黑";
-	font-size: 11px;
-	color: #ffffff;
-	background-color: #e05e9e;
-	border-radius: 5px;
-}
-
-.containerFirstContentBottomBox{
-	width: 1226px;
-	height: 320px;
-}
-.containerImagesBox{
-	position: relative;
-	float: left;
-	width: 566px;
-	height: 320px;
-	margin-right: 32px;
-}
-.containerImagesFloatBox{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 566px;
-	height: 320px;
-	background-color: rgba(128, 0, 48, .66)
-}
-.containerFloatBox{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 566px;
-	height: 42px;
-	line-height: 42px;
-	font-family: "微软雅黑";
-	font-size: 16px;
-	font-weight: 400;
-	color: #ffffff;
-	background-color:  rgba(224, 94, 158, .71)
-}
-
-.containerFirstContentBottomRightBox{
-	float: left;
-	width: 628px;
-	height: 320px;
-}
-.containerFontBox{
-	float: left;
-	width: 628px;
-	height: 32.8px;
-	padding-top: 12px;
-	line-height: 45.8px;
-	border-bottom: 1px solid #999999;
-}
-.containerFontLeftBox{
-	float: left;
-	width: 74px;
-	height: 28px;
-	margin-right: 18px;
-	line-height: 28px;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	color: #000000;
-}
-.containerHotContentBox{
-	float: left;
-	width: 74px;
-	height: 26px;
-	margin-right: 24px;
-	line-height: 26px;
-	text-align: center;
-	font-family: "微软雅黑";
-	font-size: 12px;
-	color: #fc97b8;
-	border:1px solid #fc97b8;
-}
-.containerHotPurpleContentBox{
-	float: left;
-	width: 74px;
-	height: 26px;
-	margin-right: 24px;
-	line-height: 26px;
-	text-align: center;
-	font-family: "微软雅黑";
-	font-size: 12px;
-	color: #c898f5;
-	border:1px solid #c898f5;
-}
-.containerHotYellowContentBox{
-	float: left;
-	width: 74px;
-	height: 26px;
-	margin-right: 24px;
-	line-height: 26px;
-	text-align: center;
-	font-family: "微软雅黑";
-	font-size: 12px;
-	color: #ff8f00;
-	border:1px solid #ff8f00;
-}
-.containerHotRedContentBox{
-	float: left;
-	width: 74px;
-	height: 26px;
-	margin-right: 24px;
-	line-height: 26px;
-	text-align: center;
-	font-family: "微软雅黑";
-	font-size: 12px;
-	color: #ff2080;
-	border:1px solid #ff2080;
-}
-.containerFontRightBox{
-	float: left;
-	width: 436px;
-	height: 28px;
-	line-height: 28px;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	color: #000000;
-}
-
-
-.contentSecondBox{
-	width: 100%;
-	height: 442px;
-	padding-top: 48px;
-	background-color: #f7cfdf
-}
-.containerActivityBox{
-	width: 1280px;
-	height: 394px;
-	margin: 0 auto;
-	background-color: #c898f5;
-}
-.containerActivityLeftBox{
-	position: relative;
-	float: left;
-	width: 702px;
-	height: 394px;
-}
-.containerActivityLeftFloatBox{
-	position: absolute;
-	top: 0;
-	width: 702px;
-	height: 394px;
-	background-color: rgba(0, 0, 0, .43);
-}
-.containerActivityPlayBox{
-	width: 90px;
-	height: 90px;
-}
-
-.containerActivityRightBox{
-	float: right;
-	width: 564px;
-	height: 394px;
-	background-color: #999999;
-}
-
-
-.contentThirdBox{
-	width: 100%;
-	height: 1426px;
-	background-color: #fae0e9
-}
-
-
-
+/* content end */
+/* footer start */
 #footer{
 	position:relative;
 	width:100%;
@@ -380,116 +145,176 @@ ul,li{
 }
 .footerBox{
 	width: 100%;
-	height: 872px;
+	height: 870px;
+
 }
+/* footerTop start */
 .footerTopBox{
 	width: 100%;
-	height: 400px;
-	padding-top: 90px;
-	background-color: #f7cfdf
+	height: 490px;
+	background-color: #F7CFDF;
+	border-bottom: 1px solid #FAE0E9
 }
-
-.footerTopGroupBox{
+.footerTopWidthBox{
 	width: 1400px;
-	height: 328px;
+	height: 490px;
 	margin: 0 auto;
+
 }
-.footerTopGroupFirstBox{
-	width: 378px;
+.footerTopTitle{
 	height: 56px;
-	margin: 0 auto;
-}
-.footerTopGroupSecondBox{
-	width: 1316px;
-	height: 230px;
-	margin-top:42px;
-	margin-left: 42px;
-	font-size: 0;
+	width: 100%;
+	padding-top: 70px;
+	
+	font-family: "Myriad Pro";
+	font-size: 60px;
+	color: #E05E9E;
+	line-height: 56px;
 	text-align: center;
+	margin-bottom: 42px;
 }
-.footerTopGroupSecondBox img{
-	margin-right: 29px;
+.footerTopGroup{
+	height: 234px;
+	width: 100%;
+}
+.footerTopGroupTop{
+	height: 100px;
+	width: 1316px;
+	padding-left: 42px;
+	padding-right: 42px;
 	margin-bottom: 30px;
+
+}
+.footerTopGroupTopImg{
+	float: left;
+	height: 100px;
+	width: 240px;
+	margin-right: 29px;
+}
+.footerTopGroupBottom{
+	height: 100px;
+	width: 1044px;
+	padding-left: 178px;
+	padding-right: 178px;
+
+}
+.footerTopGroupBottomImg{
+	float: left;
+	height: 100px;
+	width: 240px;
+	margin-right: 28px;
 }
 
+/* footerTop end */
+
+/* footerBottom start */
 .footerBottomBox{
 	width: 100%;
-	height: 382px;
-	background-color: #e05e9e
+	height: 380px;
+	background-color:#E05E9E;
 }
-.footerBottomBigBox{
+.footerBottomWidthBox{
 	width: 1400px;
-	height: 226px;
-	padding-top: 82px;
-	padding-bottom: 74px;
+	height: 380px;
 	margin: 0 auto;
 }
 .footerBottomLeftBox{
 	float: left;
-	width: 332px;
-	height: 226px;
-	font-family: "NotoSansHans";
-	font-size: 12px;
-	font-weight: 400;
-	color: #ffffff;
-}
-.footerBottomLeftSecondBox{
-	width: 332px;
-	height: 38px;
-}
-.footerBottomLeftSecondBox ul li{
-	float: left;
-	padding-right: 14px;
-	margin-right: 14px;
-	line-height: 1;
-	border-right: 1px solid #ffffff;
-}
-.footerBottomRightBox{
-	float: right;
-	width: 590px;
-	height: 226px;
-}
-.footerBottomRightFirstBox{
-	float: left;
-	width: 170px;
-	height: 226px;
-	font-family: "NotoSansHans";
-	font-size: 14px;
-	font-weight: 400;
-	color: #ffffff;
-	margin-right: 40px;
-}
-.footerBottomRightFirstBox li{
-	line-height: 1;
-	margin-bottom: 16px;
-}
-.footerBottomRightSecondBox{
-	float: left;
-	width: 170px;
-	height: 226px;
-	font-family: "NotoSansHans";
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: -0.8px;
-	color: #ffffff;
-	margin-right: 40px;
-}
-.footerBottomRightSecondBox li{
-	line-height: 1;
-	margin-bottom: 16px;
-}
-.footerBottomRightThirdBox{
-	float: left;
-	width: 170px;
-	height: 226px;
-	font-family: "NotoSansHans";
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: 0.9px;
-	color: #ffffff;
+	width: 642px;
+	height: 295px;
+	padding-left: 58px;
+	padding-top: 85px;
 }
 
-.footerBottomRightThirdBox li{
-	line-height: 1;
-	margin-bottom: 13px;
+.footerBottomLeftLogo{
+	height: 86px;
+	width: 100%;
+	margin-bottom: 20px;
 }
+.footerBottomLeftLogoImg{
+	height: 86px;
+	width: 64px;
+}
+.footerBootomLeftText{
+	height: auto;
+	width: 100%;
+}
+.footerBootomLeftTextNav{
+	height: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.footerBootomLeftTextNav li{
+	float: left;
+	height: 15px;
+	width: auto;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #ffffff;
+	line-height: 15px;
+	margin-left: 15px;
+	padding-right: 12px;
+	border-right: 1px solid #ffffff;
+}
+.footerBootomLeftTextNav li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footerBootomLeftTextCopyRights{
+	height: 15px;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 15px;
+}
+
+.footerBottomRightBox{
+	float: left;
+	width: 650px;
+	height: 295px;
+	padding-left: 50px;
+	padding-top: 85px;
+}
+.footerBottomRightMeun{
+	float: left;
+	width: 146px;
+	height: auto;
+	margin-right: 62px;
+}
+.footerBottomRightMeunTitle{
+	height: 14px;
+	width: 146px;
+	line-height: 14px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #ffffff;
+	padding-bottom: 16px;
+	border-bottom: 2px solid #ffffff;
+
+	margin-bottom: 20px;
+}
+.footerBottomRightMeunContent{
+	height: auto;
+	width: 200px;
+
+}
+.footerBottomRightMeunContent li{
+	height: 14px;
+	width: auto;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 14px;
+	margin-bottom: 15px;
+
+}
+.footerBottomRightMeunContent li a{
+	color: #ffffff;
+	text-decoration: none;
+
+}
+/* footerBottom end */
+/* footer end */
+
